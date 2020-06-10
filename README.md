@@ -5,8 +5,12 @@ This should one day be a multiserver dashboard for Netdata. I'm hoping for this 
 Once you install this, it should look like this:  
 ![Screenshot](screenshot.png)
 
-# Modifying the dashboard
-In the future this shouldn't be needed, but for now you actually have to edit the HTML in order to get your servers onto the dashboard. I won't explain the process here, there are comments in the source code to guide you.
+## Modifying the dashboard
+In the future this shouldn't be needed, but for now you actually have to edit the HTML in order to get your servers onto the dashboard. There are a few places where you should replace the URL.  
+First off is the `data-host`. Pretty self-explanatory.  
+Second is on the button under the graph. This is a `onclick="location.href` property of the button.  
+Third and final is what server `dashboard.js` is pulled from. This can be any Netdata server. It's on the bottom of the file.  
+Adding more groups and servers is also pretty simple. There are comments indicating the beginnings and ends of groups/servers in the HTML file.
 
 ## The general look
 The theme should be pretty similar to the normal Netdata dashboard.  
@@ -16,6 +20,7 @@ Groups are separated by a heading and a bit of a space.
 This is the look I'm going for. The categories would be the groups and the individual items would be the servers.  
 ![Homer (inspiration)](inspiration.png)  
 I'd really like to avoid much server-side setup, so ideally this would be in JS instead of PHP.  
+Below are just notes for myself, you can just ignore that...  
 
 the python pseudo-code for this (please forgive me)
 ```python
