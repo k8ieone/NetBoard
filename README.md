@@ -15,4 +15,16 @@ Groups are separated by a heading and a bit of a space.
 
 This is the look I'm going for. The categories would be the groups and the individual items would be the servers.  
 ![Homer (inspiration)](inspiration.png)  
-I'd really like to avoid much server-side setup, so ideally this would be in JS instead of PHP.
+I'd really like to avoid much server-side setup, so ideally this would be in JS instead of PHP.  
+
+the python pseudo-code for this (please forgive me)
+```python
+for group in groups:
+    print(group w3-h2)
+    for server in servers:
+        print(w3-card)
+        print(server w3-h3)
+        chart()
+        button()
+```
+hey... this doesn't look that difficult...
