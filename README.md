@@ -27,4 +27,15 @@ for group in groups:
         chart()
         button()
 ```
+
+```python
+for server in servers:
+    group = server.group
+    counter +=1
+    if group == server.group:
+        print("The entire thing with the graph")
+        servers.pop(counter)
+    elif group != server.group:
+        pass
+```
 hey... this doesn't look that difficult...
