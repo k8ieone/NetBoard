@@ -1,0 +1,6 @@
+{
+    "jsSource": "https://your-server.com:19999/dashboard.js",
+    "groups": ["Group 1"],
+    "servers": [{"name":"Server 1", "address":"https://netdata.server1.com/", "group":"Group 1"},
+                {"name":"Server 2", "address":"https://netdata.server2.com/", "group":"Group 1"}]
+}
