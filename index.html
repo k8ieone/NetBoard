@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <title>NetBoard</title>
+        <!-- All the stylesheets! -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <link rel="stylesheet" href="mycss.css">
+    </header>
+    <body class="dark-grey-color">
+        <!-- This is the first server group -->
+        <div class="w3-container">
+            <h2 class="w3-margin">Server group 1</h2>
+            <hr style="border-top: 2px solid grey;">
+            <!-- This is the first server -->
+            <div class="w3-card w3-quarter w3-margin">
+                <h3 class="w3-margin-left">pithree1</h3>
+                <!-- I actually have to make a new div for the stupid graph! -->
+                <div class="w3-center">
+                    <div data-host="https://pithree1-netdata.mcld.eu/"
+                    data-netdata="system.cpu"
+                    data-chart-library="gauge"
+                    data-title=""
+                    data-gauge-max-value="100"
+                    data-width="250"
+                    data-height="200"
+                    data-after="-60"
+                    data-points="60"
+                    data-colors="#22AA99"
+                    ></div>
+                </div>
+                <hr style="border-top: 2px solid grey; margin-left: 8px; margin-right: 8px;">
+                <button class="w3-block w3-center invisible-button w3-margin dark-grey-color" onclick="location.href='https://pithree1-netdata.mcld.eu/'"><a class="w3-left">Enter pithree1</a> <i class="fa fa-arrow-right w3-margin-right w3-right"></i></button>
+            </div>
+            <!-- Just for fun, let's add another server... -->
+            <div class="w3-card w3-quarter w3-margin">
+                <h3 class="w3-margin-left">pifour1</h3>
+                <!-- I actually have to make a new div for the stupid graph! -->
+                <div class="w3-center">
+                    <div data-host="https://pifour1-netdata.mcld.eu/"
+                    data-netdata="system.cpu"
+                    data-chart-library="gauge"
+                    data-title=""
+                    data-gauge-max-value="100"
+                    data-width="250"
+                    data-height="200"
+                    data-after="-60"
+                    data-points="60"
+                    data-colors="#22AA99"
+                    ></div>
+                </div>
+                <hr style="border-top: 2px solid grey; margin-left: 8px; margin-right: 8px;">
+                <button class="w3-block w3-center invisible-button w3-margin dark-grey-color" onclick="location.href='https://pifour1-netdata.mcld.eu/'"><a class="w3-left">Enter pifour1</a> <i class="fa fa-arrow-right w3-margin-right w3-right"></i></button>
+            </div>
+        </div>
+        <!-- Load the Netdata dashboard library now -->
+        <script type="text/javascript" src="https://pifour1-netdata.mcld.eu/dashboard.js"></script>
+    </body>
+</html>

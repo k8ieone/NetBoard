@@ -1,4 +1,5 @@
 # NetBoard
+[![CodeFactor](https://www.codefactor.io/repository/github/satcom886/netboard/badge)](https://www.codefactor.io/repository/github/satcom886/netboard)  
 This should one day be a multiserver dashboard for Netdata. I'm hoping for this to read a config file where the user would define **groups** of **servers** and the website would add a card for each server (kinda like [Homer](https://github.com/bastienwirtz/homer) does). In fact the entire concept should look very similar to Homer. I'll ad an image to show what I mean.  
 A group should have:
  * A name (e.g. compute servers) - this would be the biggest heading
