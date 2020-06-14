@@ -7,7 +7,7 @@ Once you install this, it should look like this:
 
 ## Modifying the dashboard
 In the future this shouldn't be needed, but for now you actually have to edit the HTML in order to get your servers onto the dashboard. There are a few places where you should replace the URL.  
-First off is the `data-host`. Pretty self-explanatory.  
+First off is the `data-host`. Pretty self-explanatory. This is used for determining what server should be monitored.  
 Second is on the button under the graph. This is a `onclick="location.href` property of the button.  
 Third and final is what server `dashboard.js` is pulled from. This can be any Netdata server. It's on the bottom of the file.  
 Adding more groups and servers is also pretty simple. There are comments indicating the beginnings and ends of groups/servers in the HTML file.
