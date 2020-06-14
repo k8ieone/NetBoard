@@ -57,5 +57,35 @@
         <!-- End of the first server group -->
         <!-- Replace this with any of your servers (preferably the one that never turns off) -->
         <script type="text/javascript" src="https://pifour1-netdata.mcld.eu/dashboard.js"></script>
+
+        <!-- Here you can configure global options-->
+        <script>
+            // This can only be done after dashboard.js is loaded
+
+            // destroy charts not shown (lowers memory on the browser)
+            NETDATA.options.current.destroy_on_hide = true;
+            
+            // set this to false, to always show all dimensions
+            NETDATA.options.current.eliminate_zero_dimensions = true;
+            
+            // lower the pressure on this browser
+            NETDATA.options.current.concurrent_refreshes = false;
+            
+            // if the browser is too slow (a pi?)
+            // set this to false
+            NETDATA.options.current.parallel_refresher = true;
+            
+            // always update the charts, even if focus is lost
+            NETDATA.options.current.stop_updates_when_focus_is_lost = false;
+            
+            // Since you may render charts from many servers and any of them may
+            // become offline for some time, the charts will break.
+            // This will reload the page every RELOAD_EVERY minutes
+            var RELOAD_EVERY = 15;
+            setTimeout(function(){
+                location.reload();
+            }, RELOAD_EVERY * 60 * 1000);
+            
+        </script>
     </body>
 </html>
