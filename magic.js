@@ -1,9 +1,13 @@
 // this is where the magic should happen...
 
 function readTheConfigFile() {
-    let configFile = fetch("config.json").then(Response => Response.json()).then(jsonResponse);
+    // let configFile = fetch("config.json").then(Response => Response.json()).then(jsonResponse);
+    // console.log(configFile);
+    //return configFile
+    let configFile;
+    configFile.getJSON("config.json");
     console.log(configFile);
-    return configFile
+    return configFile;
 }
 
 function buildTheWebsite() {
