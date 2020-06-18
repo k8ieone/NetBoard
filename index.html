@@ -8,14 +8,9 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
         <link rel="stylesheet" href="mycss.css">
         <script type="text/javascript" src="config.js"></script>
-        <script type="text/javascript" src="magic.js"></script>
-        <script type="text/javascript" id="jsSource"></script>
-        <script>
-            // Here dashboard.js URL is read from the config file
-            document.getElementById("jsSource").src = configFile.jsSource;
-        </script>
     </head>
     <body class="dark-grey-color">
+        <script type="text/javascript" src="magic.js"></script>
         <!-- This is the first server group -->
         <div class="w3-container">
             <h2 class="w3-margin">Server group 1</h2>
@@ -66,6 +61,7 @@
         </div>
         <!-- End of the first server group -->
         <!-- Here dashboard.js is loaded -->
+        <script type="text/javascript" src="https://london.my-netdata.io/dashboard.js" id="jsSource"></script>
 
         <!-- Here you can configure global options-->
         <script>
