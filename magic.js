@@ -4,11 +4,7 @@ function readTheConfigFile() {
     // let configFile = fetch("config.json").then(Response => Response.json()).then(jsonResponse);
     // console.log(configFile);
     //return configFile
-    let configFile;
-    $.getJSON("/config.json", function(data) { 
-        configFile=data;
-        console.log(configFile);
-      });
+    let configFile = require("./config.json");
     return configFile;
 }
 
