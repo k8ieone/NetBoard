@@ -4,7 +4,7 @@ function readTheConfigFile() {
     // let configFile = fetch("config.json").then(Response => Response.json()).then(jsonResponse);
     // console.log(configFile);
     //return configFile
-    let configFile = require("./config.json");
+    let configFile = require(["json!config.json"]);
     return configFile;
 }
 
