@@ -1,6 +1,8 @@
 .invisible-button {
-    background: transparent;
-    border: none !important;}​
+    background: transparent !important;
+    border: none !important;
+    margin-top: 16px;
+    margin-bottom: 16px;}​
 .grey-color {
     color: #2e2e2e!important;
     background-color: #404040!important;}
