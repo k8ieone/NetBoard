@@ -5,7 +5,7 @@ function readTheConfigFile() {
     // console.log(configFile);
     //return configFile
     let configFile;
-    $.getJSON("config.json", function(data) { 
+    $.getJSON("/config.json", function(data) { 
         configFile=data;
       });
     console.log(configFile);
@@ -14,7 +14,7 @@ function readTheConfigFile() {
 
 function buildTheWebsite() {
     // for (group in configFile.)
-    let configFile = JSON.parse(readTheConfigFile());
+    let configFile = readTheConfigFile();
     document.getElementById("jsSource").src = configFile.jsSource;
     console.log("The source for dashboard.js should now be set to:");
     console.log(configFile.jsSource);
