@@ -3,6 +3,7 @@
 function readTheConfigFile() {
     let configFile;
     fetch("config.json").then(Response => Response.json()).then(jsonResponse = configFile);
+    // return configFile;
 }
 
 function buildTheWebsite() {
@@ -13,4 +14,5 @@ function buildTheWebsite() {
     console.log(configFile.jsSource);
 }
 
+readTheConfigFile();
 buildTheWebsite();
