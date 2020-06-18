@@ -1,5 +1,5 @@
 {
-    "jsSource": "https://your-server.com:19999/dashboard.js",
+    "jsSource": "https://pifour1-netdata.mcld.eu/dashboard.js",
     "groups": [{"groupName": "Group 1", "servers":
                 [{"serverName": "pifour1", "serverURL": "https://pifour1-netdata.mcld.eu/"},
                 {"serverName": "pithree1", "serverURL": "https://pithree1-netdata.mcld.eu/"}]},
