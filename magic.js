@@ -3,7 +3,6 @@
 function readTheConfigFile() {
     let configFile;
     fetch("config.json").then(Response => Response.json()).then(jsonResponse = configFile);
-    console.log(configFile);
     return configFile;
 }
 
