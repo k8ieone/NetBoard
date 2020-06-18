@@ -13,3 +13,4 @@ function buildTheWebsite() {
 }
 
 readTheConfigFile();
+buildTheWebsite();
