@@ -9,7 +9,8 @@ function readTheConfigFile() {
 function buildTheWebsite() {
     // for (group in configFile.)
     document.getElementById("jsSource").src = configFile.jsSource;
-    console.log("The source for dashboard.js should now be set to " + configFile.jsSource);
+    console.log("The source for dashboard.js should now be set to:");
+    console.log(configFile.jsSource);
 }
 
 readTheConfigFile();
