@@ -5,8 +5,8 @@ function readTheConfigFile() {
     // console.log(configFile);
     //return configFile
     let configFile = $.getJSON("config.json", function(data){})
-    console.log(configFile);
-    return configFile;
+    console.log(configFile.responseJSON);
+    return configFile.responseJSON;
 }
 
 function buildTheWebsite() {
