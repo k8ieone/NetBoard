@@ -7,6 +7,7 @@ function readTheConfigFile() {
     let configFile = $.getJSON("config.json", function(data){
         return data;
     })
+    console.log(configFile);
     return configFile;
 }
 
