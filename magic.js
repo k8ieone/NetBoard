@@ -7,7 +7,8 @@ function readTheConfigFile() {
 }
 
 function buildTheWebsite() {
-    return 0;
+    // for (group in configFile.)
+    document.getElementById("jsSource").src = configFile.jsSource;
 }
 
 readTheConfigFile();
