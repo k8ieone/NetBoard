@@ -1,4 +1,4 @@
-{
+let configFile = {
     "jsSource": "https://pifour1-netdata.example.com/dashboard.js",
     "groups": [{"groupName": "Group 1", "servers":
                 [{"serverName": "pifour1", "serverURL": "https://pifour1-netdata.example.com/"},
