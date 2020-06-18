@@ -3,12 +3,12 @@
 function readTheConfigFile() {
     let configFile;
     fetch("config.json").then(Response => Response.json()).then(jsonResponse = configFile);
-    return configFile;
+    return configFile
 }
 
 function buildTheWebsite() {
     // for (group in configFile.)
-    var configFile = readTheConfigFile();
+    let configFile = readTheConfigFile();
     document.getElementById("jsSource").src = configFile.jsSource;
     console.log("The source for dashboard.js should now be set to:");
     console.log(configFile.jsSource);
