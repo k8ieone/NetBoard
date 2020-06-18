@@ -6,5 +6,9 @@
     background-color: #404040!important;}
 .dark-grey-color {
     color: #838383!important;
-    background-color: #2b2b2b!important;
-}
+    background-color: #2b2b2b!important;}
+.flex-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;}
