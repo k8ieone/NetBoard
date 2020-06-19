@@ -18,4 +18,11 @@ Each *group* is an object and contains 2 variables:
 
 Each *server* object contains 2 variables:
 1. `serverName` - a string that will be used as heading of the server card (also can be pretty much anything)
-1. `serverURL` - (a string that) contains the URL of your Netdata node
+1. `serverURL` - (a string that) contains the URL of your Netdata node  
+
+## Advanced configuration
+All *advanced options* are configured in the HTML itself.  
+I recommend changing what server `dashboard.js` is fetched from.  
+This can be done by changing the address of the script with the following comment:
+> Here dashboard.js is loaded  
+Netdata setings (like unloading charts that are not visible, etc.) are also configurable in `index.html`.  
