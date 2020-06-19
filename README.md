@@ -25,4 +25,5 @@ All *advanced options* are configured in the HTML itself.
 I recommend changing what server `dashboard.js` is fetched from.  
 This can be done by changing the address of the script with the following comment:
 > Here dashboard.js is loaded  
+
 Netdata setings (like unloading charts that are not visible, etc.) are also configurable in `index.html`.  
