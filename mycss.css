@@ -3,12 +3,14 @@
     border: none !important;
     margin-top: 16px;
     margin-bottom: 16px;}​
+.no-underline:hover {
+    text-decoration: none;}
 .grey-color {
-    color: #2e2e2e!important;
-    background-color: #404040!important;}
+    color: #2e2e2e !important;
+    background-color: #404040 !important;}
 .dark-grey-color {
     color: #838383!important;
-    background-color: #2b2b2b!important;}
+    background-color: #2b2b2b !important;}
 .flex-container {
     display: flex;
     align-items: left;
