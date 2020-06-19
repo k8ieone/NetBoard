@@ -11,6 +11,10 @@
 .dark-grey-color {
     color: #838383!important;
     background-color: #2b2b2b !important;}
+.grey-line {
+    border-top: 2px solid grey;
+    margin-left: 8px;
+    margin-right: 8px;}
 .flex-container {
     display: flex;
     align-items: left;
