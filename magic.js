@@ -1,4 +1,4 @@
-// this is where the magic should happen...
+// this is where the magic happens...
 
 function buildTheWebsite() {
     let group
@@ -15,6 +15,7 @@ function drawGroup(groupName){
     // create a master div for the group name, the horizontal line and the server cards
     let groupDiv = document.createElement("div");
     groupDiv.classList.add("w3-container");
+    // groupDiv.classList.add("w3-padding");
     // Now create the heading, a horizontal line and the div for the servers
     // This section deals with the heading
     let groupHeading = document.createElement("h2");

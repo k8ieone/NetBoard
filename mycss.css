@@ -21,6 +21,6 @@
     justify-content: left;
     flex-direction: row;
     flex-wrap: wrap;}
-.fix-quarter {
-    width: 20%;
+.w3-quarter {
+    width: 22%;
 }
