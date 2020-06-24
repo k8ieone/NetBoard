@@ -19,4 +19,8 @@
     display: flex;
     align-items: left;
     justify-content: left;
-    flex-direction: row;}
+    flex-direction: row;
+    flex-wrap: wrap;}
+.fix-quarter {
+    width: 20%;
+}

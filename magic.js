@@ -42,6 +42,7 @@ function drawServer(serverName, serverURL, groupName){
     let cardDiv = document.createElement("div");
     cardDiv.classList.add("w3-card-4");
     cardDiv.classList.add("w3-quarter");
+    // cardDiv.classList.add("fix-quarter");
     cardDiv.classList.add("w3-margin");
     // Now create the server heading
     let serverHeading = document.createElement("h3");
