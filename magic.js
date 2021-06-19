@@ -52,6 +52,7 @@ function drawServer(serverName, serverURL, groupName){
     // Now create that stupid div for the graph
     let uselessDiv = document.createElement("div");
     uselessDiv.classList.add("w3-center");
+    uselessDiv.setAttribute("style", "--color-main:#ffffff;");
     // Now create the actual chart div
     // This is going to be pretty long
     let chartDiv = document.createElement("div");
