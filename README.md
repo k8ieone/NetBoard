@@ -10,7 +10,8 @@ Serve the entire NetBoard folder on a web server (e.g. Apache).
 You don't need to have PHP, just a browser with JavaScript enabled.
 
 ## Basic configuration
-The servers and server groups are configured in `config.js`.  
+The servers and server groups are configured in `storage/config.js`.  
+Copy the sample config file `config.js.example` to `storage/config.js` to get started!  
 There's an array called *groups*. This array contains groups.  
 Each *group* is an object and contains 2 variables:
 1. `groupName` - a string that will be displayed on the page (can be any valid string)
