@@ -2,25 +2,31 @@
     background: transparent !important;
     border: none !important;
     margin-top: 16px;
-    margin-bottom: 16px;}​
+    margin-bottom: 16px;
+    }​
 .no-underline:hover {
-    text-decoration: none;}
+    text-decoration: none;
+    }
 .grey-color {
     color: #2e2e2e !important;
-    background-color: #404040 !important;}
+    background-color: #404040 !important;
+    }
 .dark-grey-color {
-    color: #838383!important;
-    background-color: #2b2b2b !important;}
+    color: #cacaca !important;
+    background-color: #2b2b2b !important;
+    }
 .grey-line {
     border-top: 2px solid grey;
     margin-left: 8px;
-    margin-right: 8px;}
+    margin-right: 8px;
+    }
 .flex-container {
     display: flex;
     align-items: left;
     justify-content: left;
     flex-direction: row;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    }
 .w3-quarter {
     width: 22%;
-}
+    }
