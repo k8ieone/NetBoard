@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  netboard:
+    # image: satcom886/netboard
+    build: .
+    # restart: unless-stopped
+    volumes:
+      - /home/satcom886/test:/usr/local/apache2/htdocs/storage
+    ports:
+      - 8080:80
