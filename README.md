@@ -1,3 +1,6 @@
+# Archival notice!
+This project has been archived. I do not use Netdata anymore and I have no interest in maintaining this project anymore.
+
 # NetBoard
 [![CodeFactor](https://www.codefactor.io/repository/github/satcom886/netboard/badge)](https://www.codefactor.io/repository/github/satcom886/netboard)  
 A multi-server dashboard for Netdata.
